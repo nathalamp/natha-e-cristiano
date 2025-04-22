@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nathã & Cristiano 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 8 Meses de Amor 🌟</h1>
+    <h2>Nathã & Cristiano</h2>
+    <div class="progress-bar">
+      <div class="progress-fill">
+        <span class="percentage">66.6%</span>
+      </div>
+    </div>
+    <p>Faltam só mais 4 meses pra 1 ano juntinhos!</p>
+  </div>
+
+  <script>
+    window.onload = () => {
+      const fill = document.querySelector('.progress-fill');
+      setTimeout(() => {
+        fill.style.width = '66.6%';
+      }, 300); // dá um leve delay pra ficar suave
+    };
+  </script>
+</body>
+</html>
